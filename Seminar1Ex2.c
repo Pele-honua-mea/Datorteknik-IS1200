@@ -2,16 +2,17 @@
 @author: Pele Honua Mea
 @date: 2022-02-21
 @brief:
-    ¤ the program extracts the bits with index 17 to 13 from x and places them as the least significant bits in z, and
+    Â¤ the program extracts the bits with index 17 to 13 from x and places them as the least significant bits in z, and
     extracts the least 3 significant bits of y and places them in the bits with index 7 to 5 in z. No other bits of z
     are changed, besides the 8 bits that were extracted from x and y. Variables x, y and z (before transformation) contain
     arbitrary values.
-    ¤ function decToBin converts decimal number to binary numbers
+    Â¤ function decToBin converts decimal number to binary number
 @expectedOutput: depends on the arbitrary values of x, y and z (before transformation)
 
 **/
 #include<stdio.h>
 #include <stdlib.h>
+
 int lower = 0;
 int upper = 131072; // only extracting bits 17-13 from x so no need for a higher limit
 
