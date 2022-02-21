@@ -10,7 +10,7 @@
 @expectedOutput: depends on the arbitrary values of x, y and z (before transformation)
 
 **/
-#include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int lower = 0;
