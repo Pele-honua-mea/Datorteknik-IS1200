@@ -20,7 +20,7 @@ int decToBin(int n){
     int b, r;
     for(b = 31; b >= 0; b--){
         r = n >> b;
-        if( r & 1){
+        if(r & 1){
             printf("1");
         }
         else{
