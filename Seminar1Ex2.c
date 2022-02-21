@@ -32,7 +32,6 @@ int decToBin(int n){
 }
 
 int main(){
-    int i;
     srand(time(NULL));
     int x = rand() % (upper - lower + 1) + lower;
     int y = rand() % (upper - lower + 1) + lower;
