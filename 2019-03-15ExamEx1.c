@@ -4,9 +4,9 @@
 @source: Written Exam in Computer Hardware Engineering (IS1200), KTH Royal Institute of Technology,
 2019-03-15, Fundamentals, Module 1: C and Assembly Programming, b), proposed solution
 @brief:
-    ¤ function foo has one parameter: a pointer p that points to an array. The elements of the array are increased by 2. We
+    Â¤ function foo has one parameter: a pointer p that points to an array. The elements of the array are increased by 2. We
     assume that the array is always null terminated.
-    ¤ function bar updates the values of the array lst.
+    Â¤ function bar calls the foo function
 @expectedOutput:
 7,8,10,0
 9,10,12,0
